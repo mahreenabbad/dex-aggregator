@@ -124,7 +124,7 @@ async function serverSideSwap() {
     const postConditions = swapParams.postConditions.map(convertBitflowPCtoHR);
     // 4.6) Build transaction
     // Provide your private key in WIF or hex
-    const privateKey = '3a020135ad063d66f11c1b6e1e1d2b2a46cf99e721dde23c70463dca132eaaec01';
+    const privateKey = 'stacks private key';
     const txOptions = {
       contractAddress: swapParams.contractAddress,     // e.g. "SPxxxx"
       contractName: swapParams.contractName,           // e.g. "wrapper-alex-v-2-1"
